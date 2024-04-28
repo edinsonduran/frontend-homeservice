@@ -48,7 +48,7 @@ document.getElementById('registroForm').addEventListener('submit', function (eve
         }).then(res => {
           if (res.isConfirmed) {
 
-            window.location.href = "/frontend-homeService/vistas/login.html";
+            window.location.href = "/vistas/login.html";
           }
 
         })

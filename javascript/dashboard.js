@@ -44,9 +44,9 @@ function mostrarAlerta() {
     preConfirm: (opcion) => {
       // Hacer algo con la opción seleccionada, por ejemplo:
       if (opcion == 1) {
-        window.location.href = "/frontend-homeService/vistas/registro.html"
+        window.location.href = "/vistas/registro.html"
       } else {
-        window.location.href = "/frontend-homeservice/vistas/registro_prestador_servicio.html"
+        window.location.href = "/vistas/registro_prestador_servicio.html"
       }
     }
   });
